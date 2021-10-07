@@ -1,5 +1,5 @@
 # Application logic abstraction
-This is a simple task list application. There are two entry points, a flask application and a cli application. The main idea of this respository is to ilustrate how application logic should be abstracted of the implementation.
+This is a simple task list application. There are three entry points, a flask application, a cli application and a console application. The main idea of this respository is to ilustrate how application logic should be abstracted from the implementation.
 
 To run the flask app execute:
 ```
@@ -15,4 +15,9 @@ or
 
 ```
 python cli_app.py --pending
+```
+
+To run the console app execute:
+```
+python console_app.py
 ```
